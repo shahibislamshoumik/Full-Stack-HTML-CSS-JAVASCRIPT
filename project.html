@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="regform">
+        <h1>Registration Form</h1>
+    </div>
+
+
+    <div class="main clearfix">
+        <form action="info.html">
+            <div id="name">
+                <h2 class="name">Name:</h2>
+                
+                <input type="text" name="f-name" id="f-name" placeholder="Write your first name" maxlength="50" autofocus class="firstname"/>
+                <label for="f-name" class="first-lable1">First Name</label>
+             
+               <input type="text" name="l-name" id="l-name" placeholder="Write your last name" maxlength="50" autofocus class="lastname"/>
+                <label for="l-name" class="last-lable1">Last Name</label>
+            </div>
+        </form>
+    
+     
+
+    <h2 class="name">
+        <label for="company">Company:</label>
+        <input type="text" name="company" id="company" class="company"/>
+    </h2>
+
+    <h2 class="name">
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="e-mail" name="email" class="email"/>
+    </h2>
+
+    <h2 class="name">
+        <label for="phone">Phone:</label>
+        
+    </h2>
+
+    <label for="area-code" class="area-code"> Area Code </label>
+    <input type="number" id="area-code" name="areacode" class="code"/>
+
+    <label for="phone-number" class="phone-number">Phone Number</label>
+    <input type="tel" class="number" name="phone-number" id="phone"/> 
+
+
+     <h2 class="name">Subject:</h2>
+     <select class="option" name="subject">
+         <option disabled="disabled" selected="selected">
+
+            --Choose Option
+
+         </option>
+
+         <option>Subject1</option>
+         <option>Subject2</option>
+         <option>Subject3</option>     
+     </select>
+
+     <h2 id="radio">Are you begginner?</h2>
+
+     <label for="radio" class="radio">
+
+      <input class="radio-one" type="radio" name="" checked="checked" id="radio"/>
+      <span class="checkmark"> </span>
+      Yes
+
+     </label>
+
+      <label for="radio" class="radio">
+
+        <input class="radio=two" type="radio" name=""  id="radio"/> 
+        <span class="checkmark"></span>
+        No
+
+      </label>
+
+      <button type="submit">Register</button>
+
+
+     
+
+
+    </div>   
+
+    
+</body>
+</html>
